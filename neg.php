@@ -1,0 +1,38 @@
+<?php
+$neg_array = array(" bad","bad ","AFRAID","angry","FEARFUL","FRIGHTENED","abandoned","abused","accused",
+  "agitated","agony","alienated","animosity","argumentative","arrogant","ashamed","at fault",
+	"awful","awfull","baffled","banished","bashful","belitted","belligerent","betrayed",
+	"bitter","blaming","boastful","bored","boring","bugged","bullshit","captive","careless","censured","chaotic",
+	"chastened","cheap","cheated","childish","clingy","clumsy","conceited","condemned","confined",
+	"confused","contradictory","controlled","cowardly","cranky","crippled","critcized",
+	"critical","cruel","crushed","cynical","debased","deceitful","deceived","defamed","defeated",
+	"defiant","defiled","degraded","dejected","demanding","depressed","despair","destitute","destroy",
+	"die","disappoint","difficult","discouraged","disgraced","dismayed","disparaged","distorted","distrustful",
+	"disturbed","doubled minded","doubtful","drained","dread","dreary","embarrass","embarrassed",
+	"empty","enraged","envious","estranged","excluded","exploited","fail","failure","faithless","fatigued",
+	"feeble","filthy","flighty","flustered","forgetful","forgotten","forsaken","frantic","fretful",
+	"friendless","frustrated","fuck","gloomy","grieved","grim","grouchy","guilty","gullible",
+	"harassed","hardened","harsh","hate","hell","hatred","haunted","heartless","hindered","hopeless","horrible",
+	"hurt","hypocritical","ignorant","immature","impaired","imprisoned","inadequate","indecisive",
+	"inefficient","ineffictive","inept","inferior","insecure","insulted","intimidated","irresponsible",
+	"jealous","joyless","kill","lacking","limited","livid","lonely","lonesome","lousy","mad","malicious",
+	"manipulated","mean","miserable","mistreated","misunderstood","mixed up","moody","naive",
+	"narrow minded","negative","nervous","obnoxious","obsessed","obstinate","obstructed",
+	"offended","opinionated","opposed","oppressed","outcast","outraged","pained","painful","panicky","paranoid",
+	"pathetic","peculiar","phony","pitiful","powerless","prejudiced","puny","pushed","put down",
+	"rebellious","regretful","rejected","remorseful","repulsive","resentful","resist","unsteady","resistant","responsible",
+	"restless","restrained","restricted","retard","risky","rotten","ruined","rushed","ruthless",
+	"sad","sarcastic","scattered","scorned","shaky","shallow","shameful","shocked","shot down","shy",
+	"sick","sinful","slammed","slow","small","sorrowful","spiteful","stifled","stingy","stressed",
+	"stubborn","stumped","selfish","stupid","suck","suffering","suicidal","suspicious","tactless","tearful",
+	"tense","terrible","thoughtless","threatened","timid","trapped","troubled","uglier","ugly","unable",
+	"uncertain","unhappy","unmindful","unpleasant","unsure","unwise","upset","useless","vindictive",
+	"violated","violent","wait","wasted","weak","weepy","whipped","withdrawn","worried","worst","worthless",
+	"wounded","wrong","quit",'badass', "bad-ass","asshole","crappy","wtf",
+	"bhenchod", "gandu","chutiya","lavdu", "lavdya", "tondat","rape","rapist",
+	"X-(","</3","O.o",":-S",":_(",":'(",">:)",":-(",":(",":-(","=P",":-P",":->",":-|",")-:","=/",
+	":-/","=(",":-(",":(",":-7",":-@","=O",":-o",":>",":o","=-O",":-\\","|-O"
+ );
+
+?>
+
