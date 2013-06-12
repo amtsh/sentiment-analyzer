@@ -5,7 +5,7 @@ require("neg.php");
 require("negators.php");
 
 /*
-  takes the input and returns the verdict about it.
+	takes the input and returns the verdict about it.
 */
 function main($statement) {
 	
@@ -38,8 +38,8 @@ function sentiment_calc($statement) {
 				if($each_verdict = sentiment_calc(trim($each_sentence)))
 				$verdict .= $each_verdict.";";
 		}
-		/*return ';'' separated result of multiple statement*/
-		return $verdict;
+		/*calculate average sentiment and return*/
+		return $verdict= $this->sentiment_avg($verdict);;
 	}
 	global $pos_array, $neg_array, $negator_array;
 	
@@ -67,6 +67,42 @@ function sentiment_calc($statement) {
 		if($pos_score===$neg_score) {$verdict="NEUTRAL";}
 
 	return $verdict;
+}
+
+/*For multi-paragraph input, this function calculates the average sentiment*/
+function sentiment_avg($verdict) {
+	$verdict = explode(';', $verdict);
+	$pos=0; $neg=0; $neutral=0;$result;
+	foreach ($verdict as $sentiment) {
+		switch ($sentiment) {
+			case 'positive':
+				$pos++;
+				break;
+			case 'negative':
+				$neg++;
+				break;
+			case 'neutral':
+				$neutral++;
+				break;
+			default:
+				break;
+		}
+	}
+
+	if($neutral > 0 && $pos == 0 && $neg == 0) {
+		$result = 'neutral';
+	}
+	else if($pos > $neg) {
+		$result = 'positive';
+	}
+	else if($neg > $pos) {
+		$result = 'negative';
+	}
+	else if($neg == $pos) {
+		$result = 'neutral';
+	}
+
+	return $result;
 }
 
 ?>
