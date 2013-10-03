@@ -28,8 +28,7 @@ $neg_array = array(" bad","bad ","AFRAID","angry","FEARFUL","FRIGHTENED","abando
 	"tense","terrible","thoughtless","threatened","timid","trapped","troubled","uglier","ugly","unable",
 	"uncertain","unhappy","unmindful","unpleasant","unsure","unwise","upset","useless","vindictive",
 	"violated","violent","wait","wasted","weak","weepy","whipped","withdrawn","worried","worst","worthless",
-	"wounded","wrong","quit",'badass', "bad-ass","asshole","crappy","wtf",
-	"bhenchod", "gandu","chutiya","lavdu", "lavdya", "tondat","rape","rapist",
+	"wounded","wrong","quit",'badass', "bad-ass","asshole","crappy","wtf","rape","rapist",
 	"X-(","</3","O.o",":-S",":_(",":'(",">:)",":-(",":(",":-(","=P",":-P",":->",":-|",")-:","=/",
 	":-/","=(",":-(",":(",":-7",":-@","=O",":-o",":>",":o","=-O",":-\\","|-O"
  );
